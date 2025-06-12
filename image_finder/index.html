@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Image Finder</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1 style="font-size: 40px; padding: 20px;">Image Finder</h1>
+            <form>
+                <input
+                    style="width: 400px; padding: 10px; background-color: rgb(170, 177, 175); border-radius: 20px; border: none;"
+                    type="text"
+                    name=""
+                    id="keyword"
+                    placeholder="Search Image...."
+                />
+                <button id="btn">Search</button>
+            </form>
+            <div class="allImg" id="allImg"></div>
+            <div id="notfound"></div>
+            <button class="hidden" id="loadMoreBtn">Load More</button>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
